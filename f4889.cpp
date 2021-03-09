@@ -29,5 +29,6 @@ int main() {
 		cout << t << ". " << result << '\n';
 		t++;
 	}
+	
 	return 0;
 }
