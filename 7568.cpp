@@ -13,7 +13,7 @@ int main() {
 	cin >> n;
 	for (int i = 0; i < n; i++) {
 		cin >> arr[i][0] >> arr[i][1];
-		result[i] = 1;		//결과 배열 초기화
+		result[i] = 1;		
 	}
 
 	for (int i = 0; i < n; i++) {
