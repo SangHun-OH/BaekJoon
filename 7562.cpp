@@ -17,7 +17,7 @@ void BFS(int i, int j)
         int x = q.front().first;
         int y = q.front().second;
         q.pop();
-        for (int i = 0; i < 8; i++)//나이트가 이동할 수 있는 8방향 체크
+        for (int i = 0; i < 8; i++)
         {
             int nx = x + dx[i];
             int ny = y + dy[i];
