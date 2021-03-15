@@ -27,7 +27,7 @@ void BFS(int i, int j)
                 {
                     q.push(make_pair(nx, ny));
                     c[nx][ny] = 1; 
-                    d[nx][ny] = d[x][y] + 1;//넣어주고 경로를 1더해준다
+                    d[nx][ny] = d[x][y] + 1;
                 }
             }
         }
