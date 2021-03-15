@@ -23,7 +23,7 @@ void BFS(int i, int j)
             int ny = y + dy[i];
             if (0 <= nx && nx < I && 0 <= ny && ny < I)
             {
-                if (c[nx][ny] == 0) //체크가 안되어 있는지 확인하고 이동한다.
+                if (c[nx][ny] == 0)
                 {
                     q.push(make_pair(nx, ny));
                     c[nx][ny] = 1; 
