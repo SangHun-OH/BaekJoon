@@ -43,7 +43,7 @@ int main() {
         a[uf][vf] = 2;
         BFS(u, v);
         cout << d[uf][vf] << '\n';
-        cnt = 0;//56번째 줄 까지는 초기화해주는 용도
+        cnt = 0;
         for (int i = 0; i < 301; i++)
             for (int j = 0; j < 301; j++)
             {
