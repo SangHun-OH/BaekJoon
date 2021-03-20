@@ -9,7 +9,6 @@ int solution(int n) {
     int sum = n;   
 
     while (1) { 
-
         if (n == 0) break; 
         sum += n % 10;     
         n = n / 10;        
