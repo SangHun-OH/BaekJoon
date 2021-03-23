@@ -16,6 +16,7 @@ int main() {
         for(int j=0; j<N; j++){
             cin >> stud[j];
             mean += stud[j];
+            
         }
         mean = mean/N;
         int cnt=0;
