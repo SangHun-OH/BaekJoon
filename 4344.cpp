@@ -4,6 +4,7 @@
 using namespace std;
 
 int main() {
+    
     int T;
     int stud[1000];
     cin >> T;
