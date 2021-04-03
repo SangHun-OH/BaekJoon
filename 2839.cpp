@@ -4,6 +4,7 @@ int main() {
 	int count = 0;
 
 	scanf("%d", &input);
+	
 	while (input > 0) {
 		if (input % 5 == 0) {
 			input -= 5;
