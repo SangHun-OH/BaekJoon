@@ -5,7 +5,8 @@ using namespace std;
 int a[301][301], c[301][301], d[301][301];
 int cnt, t, u, uf, v, vf, I;
 int dx[] = { -1,-2,-2,-1,1,2,2,1 }, dy[] = { -2,-1,1,2,2,1,-1,-2 };
- 
+
+
 void BFS(int i, int j)
 {
     queue < pair< int, int >> q;
