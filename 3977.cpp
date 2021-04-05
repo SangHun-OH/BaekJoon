@@ -29,7 +29,6 @@ int DFS(int curr){
 			sn[t] = SN;				
 			if(t==curr) break;
 		}
-		
 		SCC.push_back(currSCC);
 		SN++;
 	}
