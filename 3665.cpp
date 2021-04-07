@@ -6,7 +6,8 @@ bool adj[555][555];
 int indegree[555];
 
 int main(){ios_base::sync_with_stdio(false);cout.tie(NULL);cin.tie(NULL);
-
+           
+           
 cin >> T;
 while(T--){
     memset(indegree,0,sizeof(indegree));
