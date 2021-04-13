@@ -11,7 +11,6 @@ using namespace std;
 
 #define MAX 25
 
-
 int N;
 int arr[MAX][MAX];
 bool visit[MAX][MAX];
