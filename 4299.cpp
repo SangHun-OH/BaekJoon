@@ -5,9 +5,8 @@ int main() {
 	
 	int add = 0, dec = 0;
 	cin >> add >> dec;
-
-	add = add - dec;
 	
+	add = add - dec;
 	
 	if (add < 0) cout << -1 << endl;
 	else {
