@@ -12,7 +12,6 @@ int solution(int n) {
         if (n == 0) break; 
         sum += n % 10;     
         n = n / 10;        
-
     }
 
     return sum;
