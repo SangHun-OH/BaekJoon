@@ -17,7 +17,6 @@ int solution(int n) {
     return sum;
 }
 
-
 int main(void) {
 
     for (int i = 1; i < N; i++) {
