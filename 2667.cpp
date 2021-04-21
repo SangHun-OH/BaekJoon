@@ -16,6 +16,7 @@ bool visit[MAX][MAX];
 int house_cnt;
 int dx[4] = { 1, -1, 0, 0 };
 int dy[4] = { 0, 0, 1, -1 };
+
 vector <int> vec;
 
 void DFS(int x, int y) {
