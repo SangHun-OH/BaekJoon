@@ -12,7 +12,6 @@ vector<vector<int>> SCC;
 int DFS(int curr){
 	dfsn[curr] = ++cnt;
 	S.push(curr);
-
 	int result = dfsn[curr];
 	for (int next: adj[curr]){
 		if(dfsn[next] == 0) result = min(result, DFS(next));
