@@ -4,7 +4,6 @@
 
 using namespace std;
 bool arr[N];
-
 int solution(int n) {
     int sum = n;   
 
