@@ -7,7 +7,6 @@ int main(){
     vector<int> a(n+1);
     for( int i=1; i<=n; i++ ) scanf("%d",&a[i]);
     scanf("%d",&m);
-    
     while( m-- ){
         int s, k;
         scanf("%d%d",&s,&k);
