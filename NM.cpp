@@ -20,7 +20,6 @@ void dfs(int n, int m, int *list, bool *visited, int cnt) {
         }
     }
 }
-
 int main() {
     int n, m;
     int list[9] = { 0, };
